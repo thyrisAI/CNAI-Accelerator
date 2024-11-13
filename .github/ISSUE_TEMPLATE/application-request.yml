@@ -1,7 +1,7 @@
 name: "Startup Application"
 description: "Apply to join the CNAI Accelerator program"
 title: "[Application] Startup Application: <Startup Name>"
-labels: ["application", "new applicant"]
+labels: ["Application", "Application Submitted", ]
 assignees: ["program-coordinator"]
 
 body:
