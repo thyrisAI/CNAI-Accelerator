@@ -1,0 +1,67 @@
+name: "Startup Application"
+description: "Apply to join the CNAI Accelerator program"
+title: "[Application] Startup Application: <Startup Name>"
+labels: ["application", "new applicant"]
+assignees: ["program-coordinator"]
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for your interest in joining the CNAI Accelerator program! Please complete the details below to submit your application.
+
+  - type: input
+    id: startup_name
+    attributes:
+      label: "Startup Name"
+      placeholder: "Enter your startup's name"
+
+  - type: textarea
+    id: mission_statement
+    attributes:
+      label: "Mission Statement"
+      description: "Briefly describe your startup's mission and what problem it aims to solve."
+      placeholder: "Describe your mission"
+
+  - type: input
+    id: stage
+    attributes:
+      label: "Startup Stage"
+      description: "Specify your startup's current stage (e.g., early, mid, or later-stage)."
+      placeholder: "e.g., Early-stage"
+
+  - type: textarea
+    id: product_description
+    attributes:
+      label: "Product/Service Description"
+      description: "Provide a summary of your main product or service."
+      placeholder: "Describe your product or service"
+
+  - type: input
+    id: website
+    attributes:
+      label: "Website URL"
+      placeholder: "https://yourstartup.com"
+
+  - type: dropdown
+    id: program_preference
+    attributes:
+      label: "Program Preference"
+      description: "Choose which program format you prefer."
+      options:
+        - "Onsite"
+        - "Online"
+        - "Hybrid"
+  
+  - type: input
+    id: contact_email
+    attributes:
+      label: "Contact Email"
+      placeholder: "contact@yourstartup.com"
+
+  - type: textarea
+    id: additional_info
+    attributes:
+      label: "Additional Information"
+      description: "Any other information you'd like us to know?"
+      placeholder: "Additional details"
