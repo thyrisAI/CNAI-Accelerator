@@ -1,0 +1,47 @@
+name: "Support Request"
+description: "Request support or assistance from the CNAI Accelerator team"
+title: "[Support] Support Request: <Issue Topic>"
+labels: ["support", "help needed"]
+assignees: ["support-team"]
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        If you are experiencing an issue or need assistance, please provide details below so we can help you as quickly as possible.
+
+  - type: input
+    id: topic
+    attributes:
+      label: "Issue Topic"
+      placeholder: "Briefly describe the issue topic"
+
+  - type: textarea
+    id: description
+    attributes:
+      label: "Description of the Issue"
+      description: "Provide as much detail as possible to describe the issue or question."
+      placeholder: "Describe your issue here"
+
+  - type: dropdown
+    id: urgency
+    attributes:
+      label: "Urgency Level"
+      options:
+        - "Low"
+        - "Medium"
+        - "High"
+        - "Critical"
+
+  - type: input
+    id: contact_email
+    attributes:
+      label: "Contact Email"
+      placeholder: "your-email@example.com"
+
+  - type: textarea
+    id: additional_comments
+    attributes:
+      label: "Additional Comments"
+      description: "Any further details or context you’d like to add?"
+      placeholder: "Additional comments or context"
