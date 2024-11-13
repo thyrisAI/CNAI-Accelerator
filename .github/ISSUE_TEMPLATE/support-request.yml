@@ -1,7 +1,7 @@
 name: "Support Request"
 description: "Request support or assistance from the CNAI Accelerator team"
 title: "[Support] Support Request: <Issue Topic>"
-labels: ["support", "help needed"]
+labels: ["Support Ticket", "Help Needed"]
 assignees: ["support-team"]
 
 body:
