@@ -1,7 +1,7 @@
 name: "Perk Request"
 description: "Request access to perks or benefits offered by the CNAI Accelerator"
 title: "[Perk Request] Access to Perks: <Perk Type>"
-labels: ["perk request", "benefits"]
+labels: ["Perk Request"]
 assignees: ["benefits-team"]
 
 body:
