@@ -1,6 +1,8 @@
+This Program has been prepared according to the principles in the [CNAI Whitepaper](https://www.cncf.io/reports/cloud-native-artificial-intelligence-whitepaper/) published by [CNCF](https://www.cncf.io/). The purpose of the program is to support the CNCF AI ecosystem.
+
 # CNAI Accelerator
 
-The CNAIA aims to accept a limited number of startups per cohort, ensuring that each participant receives personalized attention and mentorship. The ideal number of startups per cohort is not specified in the citations, but it's likely to be between 10 to 20 teams.
+The aims to accept a limited number of startups per cohort, ensuring that each participant receives personalized attention and mentorship. The ideal number of startups per cohort is not specified in the citations, but it's likely to be between 10 to 20 teams.
 
 ## Cohort Structure
 To ensure a high level of engagement and quality among participants, the program might consider the following cohorts:
