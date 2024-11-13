@@ -1,0 +1,38 @@
+name: "Perk Request"
+description: "Request access to perks or benefits offered by the CNAI Accelerator"
+title: "[Perk Request] Access to Perks: <Perk Type>"
+labels: ["perk request", "benefits"]
+assignees: ["benefits-team"]
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Please complete the form below to request access to specific perks or benefits available through the CNAI Accelerator.
+
+  - type: input
+    id: perk_type
+    attributes:
+      label: "Perk Type"
+      description: "Specify the perk or benefit you are requesting."
+      placeholder: "e.g., Cloud Credits, Mentorship Session"
+
+  - type: textarea
+    id: reason
+    attributes:
+      label: "Reason for Request"
+      description: "Provide a brief explanation of why you need this perk and how it will support your startup."
+      placeholder: "Explain your reason for requesting this perk"
+
+  - type: input
+    id: contact_email
+    attributes:
+      label: "Contact Email"
+      placeholder: "your-email@example.com"
+
+  - type: textarea
+    id: additional_details
+    attributes:
+      label: "Additional Details"
+      description: "Any further information or special requirements?"
+      placeholder: "Provide additional details"
